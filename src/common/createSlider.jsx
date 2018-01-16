@@ -297,7 +297,7 @@ export default function createSlider(Component) {
           style={style}
         >
           <div
-            className={`${prefixCls}-rail sp-input sp-rectangle`}
+            className={`${prefixCls}-rail sp-input sp-rectangle sp-margin-top-2`}
             style={{
               ...maximumTrackStyle,
               ...railStyle,

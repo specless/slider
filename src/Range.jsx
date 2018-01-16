@@ -327,7 +327,7 @@ class Range extends React.Component {
 
     const tracks = bounds.slice(0, -1).map((_, index) => {
       const i = index + 1;
-      const trackClassName = classNames('sp-rectangle', {
+      const trackClassName = classNames('sp-input sp-rectangle sp-margin-top-2', {
         [`${prefixCls}-track`]: true,
         [`${prefixCls}-track-${i}`]: true,
       });

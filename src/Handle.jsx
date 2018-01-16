@@ -39,7 +39,7 @@ export default class Handle extends React.Component {
           tabIndex={tabIndex || 0}
           {...ariaProps}
           {...restProps}
-          className={classNames(' sp-primary sp-circle', className)}
+          className={classNames(' sp-primary sp-circle sp-small', className)}
           style={elStyle}
       />
     );
