@@ -169,7 +169,7 @@ class Slider extends React.Component {
     const _trackStyle = trackStyle[0] || trackStyle;
     const track = (
       <Track
-        className={`${prefixCls}-track sp-input sp-rectangle sp-margin-top-2`}
+        className={`${prefixCls}-track sp-input sp-rectangle`}
         vertical={vertical}
         included={included}
         offset={0}

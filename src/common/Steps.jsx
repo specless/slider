@@ -38,7 +38,7 @@ const Steps = ({ prefixCls, vertical, marks, dots, step, included,
     return <span className={pointClassName} style={style} key={point} />;
   });
 
-  return <div className={`${prefixCls}-step sp-rectangle sp-margin-top-2`}>{elements}</div>;
+  return <div className={`${prefixCls}-step sp-rectangle`}>{elements}</div>;
 };
 
 export default Steps;

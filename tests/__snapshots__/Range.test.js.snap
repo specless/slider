@@ -5,30 +5,30 @@ exports[`Range should render Multi-Range with correct DOM structure 1`] = `
   class="rc-slider sp-rectangle sp-slider"
 >
   <div
-    class="rc-slider-rail sp-input sp-rectangle sp-margin-top-2"
+    class="rc-slider-rail sp-input sp-rectangle"
   >
     
   </div>
   <div
-    class="sp-input sp-rectangle sp-margin-top-2 rc-slider-track rc-slider-track-1"
+    class="sp-input sp-rectangle rc-slider-track rc-slider-track-1"
     style="visibility:visible;left:0%;width:0%"
   >
     
   </div>
   <div
-    class="sp-input sp-rectangle sp-margin-top-2 rc-slider-track rc-slider-track-2"
+    class="sp-input sp-rectangle rc-slider-track rc-slider-track-2"
     style="visibility:visible;left:0%;width:0%"
   >
     
   </div>
   <div
-    class="sp-input sp-rectangle sp-margin-top-2 rc-slider-track rc-slider-track-3"
+    class="sp-input sp-rectangle rc-slider-track rc-slider-track-3"
     style="visibility:visible;left:0%;width:0%"
   >
     
   </div>
   <div
-    class="rc-slider-step sp-rectangle sp-margin-top-2"
+    class="rc-slider-step sp-rectangle"
   >
     
   </div>
@@ -97,18 +97,18 @@ exports[`Range should render Range with correct DOM structure 1`] = `
   class="rc-slider sp-rectangle sp-slider"
 >
   <div
-    class="rc-slider-rail sp-input sp-rectangle sp-margin-top-2"
+    class="rc-slider-rail sp-input sp-rectangle"
   >
     
   </div>
   <div
-    class="sp-input sp-rectangle sp-margin-top-2 rc-slider-track rc-slider-track-1"
+    class="sp-input sp-rectangle rc-slider-track rc-slider-track-1"
     style="visibility:visible;left:0%;width:0%"
   >
     
   </div>
   <div
-    class="rc-slider-step sp-rectangle sp-margin-top-2"
+    class="rc-slider-step sp-rectangle"
   >
     
   </div>

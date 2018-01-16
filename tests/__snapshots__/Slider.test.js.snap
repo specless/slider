@@ -5,18 +5,18 @@ exports[`Slider should render Slider with correct DOM structure 1`] = `
   class="rc-slider sp-rectangle sp-slider"
 >
   <div
-    class="rc-slider-rail sp-input sp-rectangle sp-margin-top-2"
+    class="rc-slider-rail sp-input sp-rectangle"
   >
     
   </div>
   <div
-    class="rc-slider-track sp-input sp-rectangle sp-margin-top-2"
+    class="rc-slider-track sp-input sp-rectangle"
     style="visibility:visible;left:0%;width:0%"
   >
     
   </div>
   <div
-    class="rc-slider-step sp-rectangle sp-margin-top-2"
+    class="rc-slider-step sp-rectangle"
   >
     
   </div>
