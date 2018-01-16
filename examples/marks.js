@@ -1,8 +1,8 @@
-import 'rc-slider/assets/index.less';
+import '@specless/slider/assets/index.less';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Slider from 'rc-slider';
+import Slider from '@specless/slider';
 
 const style = { width: 400, margin: 50 };
 const marks = {
