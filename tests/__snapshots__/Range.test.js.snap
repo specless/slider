@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Range should render Multi-Range with correct DOM structure 1`] = `
+<div
+  class="rc-slider sp-rectangle sp-slider"
+>
+  <div
+    class="rc-slider-rail sp-input sp-rectangle sp-margin-top-2"
+  >
+    
+  </div>
+  <div
+    class="sp-input sp-rectangle sp-margin-top-2 rc-slider-track rc-slider-track-1"
+    style="visibility:visible;left:0%;width:0%"
+  >
+    
+  </div>
+  <div
+    class="sp-input sp-rectangle sp-margin-top-2 rc-slider-track rc-slider-track-2"
+    style="visibility:visible;left:0%;width:0%"
+  >
+    
+  </div>
+  <div
+    class="sp-input sp-rectangle sp-margin-top-2 rc-slider-track rc-slider-track-3"
+    style="visibility:visible;left:0%;width:0%"
+  >
+    
+  </div>
+  <div
+    class="rc-slider-step sp-rectangle sp-margin-top-2"
+  >
+    
+  </div>
+  <button
+    aria-disabled="false"
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    class=" sp-primary sp-circle sp-small rc-slider-handle rc-slider-handle-1"
+    role="slider"
+    style="left:0%"
+    tabindex="0"
+    type="button"
+  >
+    
+  </button>
+  <button
+    aria-disabled="false"
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    class=" sp-primary sp-circle sp-small rc-slider-handle rc-slider-handle-2"
+    role="slider"
+    style="left:0%"
+    tabindex="0"
+    type="button"
+  >
+    
+  </button>
+  <button
+    aria-disabled="false"
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    class=" sp-primary sp-circle sp-small rc-slider-handle rc-slider-handle-3"
+    role="slider"
+    style="left:0%"
+    tabindex="0"
+    type="button"
+  >
+    
+  </button>
+  <button
+    aria-disabled="false"
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    class=" sp-primary sp-circle sp-small rc-slider-handle rc-slider-handle-4"
+    role="slider"
+    style="left:0%"
+    tabindex="0"
+    type="button"
+  >
+    
+  </button>
+  <div
+    class="rc-slider-mark"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`Range should render Range with correct DOM structure 1`] = `
+<div
+  class="rc-slider sp-rectangle sp-slider"
+>
+  <div
+    class="rc-slider-rail sp-input sp-rectangle sp-margin-top-2"
+  >
+    
+  </div>
+  <div
+    class="sp-input sp-rectangle sp-margin-top-2 rc-slider-track rc-slider-track-1"
+    style="visibility:visible;left:0%;width:0%"
+  >
+    
+  </div>
+  <div
+    class="rc-slider-step sp-rectangle sp-margin-top-2"
+  >
+    
+  </div>
+  <button
+    aria-disabled="false"
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    class=" sp-primary sp-circle sp-small rc-slider-handle rc-slider-handle-1"
+    role="slider"
+    style="left:0%"
+    tabindex="0"
+    type="button"
+  >
+    
+  </button>
+  <button
+    aria-disabled="false"
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    class=" sp-primary sp-circle sp-small rc-slider-handle rc-slider-handle-2"
+    role="slider"
+    style="left:0%"
+    tabindex="0"
+    type="button"
+  >
+    
+  </button>
+  <div
+    class="rc-slider-mark"
+  >
+    
+  </div>
+</div>
+`;
