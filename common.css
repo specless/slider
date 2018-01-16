@@ -3,7 +3,6 @@
   height: 14px;
   padding: 5px 0;
   width: 100%;
-  border-radius: 6px;
   -ms-touch-action: none;
       touch-action: none;
   box-sizing: border-box;
@@ -17,14 +16,12 @@
   position: absolute;
   width: 100%;
   background-color: #e9e9e9;
-  height: 4px;
-  border-radius: 6px;
+  height: 6px;
 }
 .rc-slider-track {
   position: absolute;
   left: 0;
-  height: 4px;
-  border-radius: 6px;
+  height: 6px;
   background-color: #abe2fb;
 }
 .rc-slider-handle {
@@ -41,6 +38,8 @@
   background-color: #fff;
   -ms-touch-action: pan-x;
       touch-action: pan-x;
+  -webkit-transform: translate(-20%, 15%);
+          transform: translate(-20%, 15%);
 }
 .rc-slider-handle:hover {
   border-color: #57c5f7;
@@ -84,8 +83,8 @@
   position: absolute;
   bottom: -2px;
   margin-left: -4px;
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   border: 2px solid #e9e9e9;
   background-color: #fff;
   cursor: pointer;
@@ -119,12 +118,12 @@
 }
 .rc-slider-vertical .rc-slider-rail {
   height: 100%;
-  width: 4px;
+  width: 6px;
 }
 .rc-slider-vertical .rc-slider-track {
   left: 5px;
   bottom: 0;
-  width: 4px;
+  width: 6px;
 }
 .rc-slider-vertical .rc-slider-handle {
   margin-left: -5px;
@@ -282,7 +281,6 @@
   text-align: center;
   text-decoration: none;
   background-color: #6c6c6c;
-  border-radius: 6px;
   box-shadow: 0 0 4px #d9d9d9;
 }
 .rc-slider-tooltip-arrow {
