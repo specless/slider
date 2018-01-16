@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 import PropTypes from 'prop-types';
 
 export default class Handle extends React.Component {
@@ -31,14 +32,15 @@ export default class Handle extends React.Component {
       };
     }
     return (
-      <div
-        ref={node => (this.handle = node)}
-        role="slider"
-        tabIndex= {tabIndex || 0}
-        {...ariaProps}
-        {...restProps}
-        className={className}
-        style={elStyle}
+      <button
+          type='button'
+          ref={node => (this.handle = node)}
+          role='slider'
+          tabIndex={tabIndex || 0}
+          {...ariaProps}
+          {...restProps}
+          className={classNames(' sp-primary sp-circle', className)}
+          style={elStyle}
       />
     );
   }

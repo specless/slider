@@ -278,7 +278,7 @@ export default function createSlider(Component) {
       } = this.props;
       const { tracks, handles } = super.render();
 
-      const sliderClassName = classNames(prefixCls, {
+      const sliderClassName = classNames(prefixCls, 'sp-rectangle', 'sp-slider', {
         [`${prefixCls}-with-marks`]: Object.keys(marks).length,
         [`${prefixCls}-disabled`]: disabled,
         [`${prefixCls}-vertical`]: vertical,
@@ -297,7 +297,7 @@ export default function createSlider(Component) {
           style={style}
         >
           <div
-            className={`${prefixCls}-rail`}
+            className={`${prefixCls}-rail sp-input sp-rectangle`}
             style={{
               ...maximumTrackStyle,
               ...railStyle,
