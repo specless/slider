@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider should render Slider with correct DOM structure 1`] = `
+<div
+  class="rc-slider sp-rectangle sp-slider"
+>
+  <div
+    class="rc-slider-rail sp-input sp-rectangle"
+  >
+    
+  </div>
+  <div
+    class="rc-slider-track sp-rectangle"
+    style="visibility:visible;left:0%;width:0%"
+  >
+    
+  </div>
+  <div
+    class="rc-slider-step"
+  >
+    
+  </div>
+  <button
+    aria-disabled="false"
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="0"
+    class=" sp-primary sp-circle rc-slider-handle"
+    role="slider"
+    style="left:0%"
+    tabindex="0"
+    type="button"
+  >
+    
+  </button>
+  <div
+    class="rc-slider-mark"
+  >
+    
+  </div>
+</div>
+`;
