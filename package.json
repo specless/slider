@@ -1,6 +1,6 @@
 {
-  "name": "rc-slider",
-  "version": "8.5.0",
+  "name": "@specless/slider",
+  "version": "8.6.0",
   "description": "Slider UI component for React",
   "keywords": [
     "react",
@@ -10,13 +10,13 @@
     "input",
     "range"
   ],
-  "homepage": "http://github.com/react-component/slider/",
+  "homepage": "https://github.com/specless/slider",
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-component/slider.git"
+    "url": "git@github.com:specless/slider.git"
   },
   "bugs": {
-    "url": "http://github.com/react-component/slider/issues"
+    "url": "https://github.com/specless/slider/issues"
   },
   "files": [
     "assets/*.css",
@@ -73,9 +73,6 @@
     "react-dom": "^16.0.0",
     "react-test-renderer": "^16.0.0"
   },
-  "pre-commit": [
-
-  ],
   "dependencies": {
     "babel-runtime": "6.x",
     "classnames": "^2.2.5",
