@@ -38,8 +38,8 @@
   background-color: #fff;
   -ms-touch-action: pan-x;
       touch-action: pan-x;
-  -webkit-transform: translate(-20%, 15%);
-          transform: translate(-20%, 15%);
+  -webkit-transform: translate(-20%, -28%);
+          transform: translate(-20%, -28%);
 }
 .rc-slider-handle:hover {
   border-color: #57c5f7;

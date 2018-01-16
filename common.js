@@ -3472,7 +3472,7 @@ function createSlider(Component) {
           style: style
         },
         __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('div', {
-          className: prefixCls + '-rail sp-input sp-rectangle sp-margin-top-2',
+          className: prefixCls + '-rail sp-input sp-rectangle',
           style: __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default()({}, maximumTrackStyle, railStyle)
         }),
         tracks,
@@ -27067,7 +27067,7 @@ var Slider = function (_React$Component) {
 
     var _trackStyle = trackStyle[0] || trackStyle;
     var track = __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__common_Track__["a" /* default */], {
-      className: prefixCls + '-track sp-input sp-rectangle sp-margin-top-2',
+      className: prefixCls + '-track sp-input sp-rectangle',
       vertical: vertical,
       included: included,
       offset: 0,
@@ -27156,7 +27156,7 @@ var Steps = function Steps(_ref) {
 
   return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
     'div',
-    { className: prefixCls + '-step sp-rectangle sp-margin-top-2' },
+    { className: prefixCls + '-step sp-rectangle' },
     elements
   );
 };
@@ -28156,7 +28156,7 @@ var Range = function (_React$Component) {
       var _classNames2;
 
       var i = index + 1;
-      var trackClassName = __WEBPACK_IMPORTED_MODULE_6_classnames___default()('sp-input sp-rectangle sp-margin-top-2', (_classNames2 = {}, _classNames2[prefixCls + '-track'] = true, _classNames2[prefixCls + '-track-' + i] = true, _classNames2));
+      var trackClassName = __WEBPACK_IMPORTED_MODULE_6_classnames___default()('sp-input sp-rectangle', (_classNames2 = {}, _classNames2[prefixCls + '-track'] = true, _classNames2[prefixCls + '-track-' + i] = true, _classNames2));
       return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__common_Track__["a" /* default */], {
         className: trackClassName,
         vertical: vertical,
